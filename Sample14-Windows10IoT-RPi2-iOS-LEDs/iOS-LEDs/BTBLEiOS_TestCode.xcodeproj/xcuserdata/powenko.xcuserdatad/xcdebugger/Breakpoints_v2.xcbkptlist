@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BTBLEiOS_TestCode/ViewController.m"
-            timestampString = "478640970.587053"
+            timestampString = "478678631.135132"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "195"
-            endingLineNumber = "195"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "-DidReadHardwareRevisionString:"
             landmarkType = "5">
          </BreakpointContent>

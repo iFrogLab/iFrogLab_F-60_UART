@@ -15,6 +15,14 @@
 @property (strong, nonatomic) IBOutlet UIButton *sendButton;
 @property (strong, nonatomic) IBOutlet UITextField *sendTextField;
 @property (strong, nonatomic) IBOutlet UITextView *consoleTextView;
+@property (weak, nonatomic) IBOutlet UISwitch *pin2;
+@property (weak, nonatomic) IBOutlet UISwitch *pin3;
+@property (weak, nonatomic) IBOutlet UISwitch *pin4;
+@property (weak, nonatomic) IBOutlet UISwitch *pin5;
+@property (weak, nonatomic) IBOutlet UISwitch *pin6;
+@property (weak, nonatomic) IBOutlet UISwitch *pin7;
+@property (weak, nonatomic) IBOutlet UISwitch *pin8;
+@property (weak, nonatomic) IBOutlet UISwitch *pin9;
 
 - (void) BlueToothStatus:(NSString*)errorMsg;
 - (void) UARTReciver:(NSString*)message;

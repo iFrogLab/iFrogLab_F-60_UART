@@ -180,6 +180,38 @@ typedef enum
     [m_BT_BLE_Lib UARTSend:self.sendTextField.text];
     [self.sendTextField setText:@""];
 }
+- (IBAction)eventPin2:(id)sender {
+    if(self.pin2.isOn==true) [m_BT_BLE_Lib UARTSend:@"m2 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m2 off"];
+}
+- (IBAction)eventPin3:(id)sender{
+    if(self.pin3.isOn==true) [m_BT_BLE_Lib UARTSend:@"m3 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m3 off"];
+}
+- (IBAction)eventPin4:(id)sender {
+    if(self.pin4.isOn==true) [m_BT_BLE_Lib UARTSend:@"m4 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m4 off"];
+}
+- (IBAction)eventPin5:(id)sender {
+    if(self.pin5.isOn==true) [m_BT_BLE_Lib UARTSend:@"m5 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m5 off"];
+}
+- (IBAction)eventPin6:(id)sender {
+    if(self.pin6.isOn==true) [m_BT_BLE_Lib UARTSend:@"m6 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m6 off"];
+}
+- (IBAction)eventPin7:(id)sender {
+    if(self.pin7.isOn==true) [m_BT_BLE_Lib UARTSend:@"m7 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m7 off"];
+}
+- (IBAction)eventPin8:(id)sender {
+    if(self.pin8.isOn==true) [m_BT_BLE_Lib UARTSend:@"m8 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m8 off"];
+}
+- (IBAction)eventPin9:(id)sender {
+    if(self.pin9.isOn==true) [m_BT_BLE_Lib UARTSend:@"m9 on"];
+    else [m_BT_BLE_Lib UARTSend:@"m9 off"];
+}
 
 
 

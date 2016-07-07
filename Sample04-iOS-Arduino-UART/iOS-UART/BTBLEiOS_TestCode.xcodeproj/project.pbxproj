@@ -326,6 +326,7 @@
 				GCC_PREFIX_HEADER = "BTBLEiOS_TestCode/BTBLEiOS_TestCode-Prefix.pch";
 				INFOPLIST_FILE = "BTBLEiOS_TestCode/BTBLEiOS_TestCode-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.looptek.bleuart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -347,6 +348,7 @@
 				GCC_PREFIX_HEADER = "BTBLEiOS_TestCode/BTBLEiOS_TestCode-Prefix.pch";
 				INFOPLIST_FILE = "BTBLEiOS_TestCode/BTBLEiOS_TestCode-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.looptek.bleuart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

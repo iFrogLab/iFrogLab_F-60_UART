@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/powenko/AndroidStudioProjects/ifrogLab_BT_AP_only/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="29f1f023fb6cd9b65f793801f1b8912f3d1feede">
+        <dex dex="/Users/powenko/AndroidStudioProjects/ifrogLab_BT_AP_only/app/build/intermediates/pre-dexed/debug/instant-run_71be31a4dc2ba5eaea94df7aa01841f4b5b35c7e.jar" />
+    </item>
+    <item
+        jar="/Users/powenko/AndroidStudioProjects/ifrogLab_BT_AP_only/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3ca30d585ecac8fce1f66d6d8dfc5f3eb447aee9">
+        <dex dex="/Users/powenko/AndroidStudioProjects/ifrogLab_BT_AP_only/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_eb99cffcb1d98617603afbd32ed36f54b89c2ea3.jar" />
+    </item>
+    <item
+        jar="/Users/powenko/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/powenko/AndroidStudioProjects/ifrogLab_BT_AP_only/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_eec2da340ce8e6b92851d23e26f127d0d2602fc4.jar" />
+    </item>
+    <item
+        jar="/Users/powenko/AndroidStudioProjects/ifrogLab_BT_AP_only/app/libs/ifroglab_bt_lib.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e911e80df736e1dc2fa6e8f7fc6f32331993a8e2">
+        <dex dex="/Users/powenko/AndroidStudioProjects/ifrogLab_BT_AP_only/app/build/intermediates/pre-dexed/debug/ifroglab_bt_lib_a4bbefa928351ed82d8b5a5a176af5e846c5f1f1.jar" />
+    </item>
+
+</items>

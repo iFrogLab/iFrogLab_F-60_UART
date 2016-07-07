@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ifroglab_bt_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ifroglab_bt_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

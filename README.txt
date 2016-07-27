@@ -58,5 +58,22 @@ Mac OSX 10.9.2 with built-in Bluetooth 4.0 or USB dongle
 Linux with BlueZ 5.1 with built-in Bluetooth 4.0 or USB dongle
 
 
+==========================
+Q:在 Eclipse  中編譯Android 範例，出現android-support-v7-appcompat錯誤：
+
+
+A:
+那是需要加上Google 的 Library 叫android-support-v7-appcompat.jar， 
+如果只是要測試的話，建議可以使用這版本，
+
+
+設定方法，這看這篇文章
+http://oldgrayduck.blogspot.tw/2013/10/android-support-library.html
+添加 
+
+
+另外建議，您可以使用以下的範例，這版本特地拿掉Google 的 Library 會比較容易。
+
+https://github.com/iFrogLab/iFrogLab_F-60_UART/tree/master/sample19-Android-UART-noNeed-android-support-v7-appcompat/ifrogLab_BT_AP_only
 
 

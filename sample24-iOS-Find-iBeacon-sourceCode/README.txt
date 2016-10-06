@@ -3,8 +3,7 @@
 ===========================================================================
 This sample code is
 Pure iOS source code, search and display beacon device.
-
-
+https://youtu.be/WgpOfuKlfKc
 
 ===========================================================================
 Device and Video Tutorials

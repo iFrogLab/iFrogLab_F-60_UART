@@ -96,6 +96,8 @@
 				TargetAttributes = {
 					D3F1416A1D53629700CE416B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 854VH8297E;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -249,10 +251,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 854VH8297E;
 				INFOPLIST_FILE = iFrogLab_iBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.powenko.iFrogLab-iBeacon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -260,10 +264,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 854VH8297E;
 				INFOPLIST_FILE = iFrogLab_iBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.powenko.iFrogLab-iBeacon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +292,7 @@
 				D3F1417F1D53629700CE416B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

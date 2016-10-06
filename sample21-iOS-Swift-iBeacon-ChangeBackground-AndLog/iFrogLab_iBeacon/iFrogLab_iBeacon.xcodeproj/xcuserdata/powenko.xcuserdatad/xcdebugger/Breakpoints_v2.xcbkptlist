@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iFrogLab_iBeacon/ViewController.swift"
+            timestampString = "497401346.257067"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "locationManager(manager:didRangeBeacons:inRegion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iFrogLab_iBeacon/ViewController.swift"
+            timestampString = "497401604.522743"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iFrogLab_iBeacon.ViewController.region.getter : __ObjC.CLBeaconRegion"
+                  moduleName = "iFrogLab_iBeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/powenko/Desktop/powenko/github/iFrogLab_github/iFrogLab_F-60_UART/sample21-iOS-Swift-iBeacon-ChangeBackground-AndLog/iFrogLab_iBeacon/iFrogLab_iBeacon/ViewController.swift"
+                  timestampString = "497401608.038833"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iFrogLab_iBeacon.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; iFrogLab_iBeacon.ViewController"
+                  moduleName = "iFrogLab_iBeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/powenko/Desktop/powenko/github/iFrogLab_github/iFrogLab_F-60_UART/sample21-iOS-Swift-iBeacon-ChangeBackground-AndLog/iFrogLab_iBeacon/iFrogLab_iBeacon/ViewController.swift"
+                  timestampString = "497401608.042979"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iFrogLab_iBeacon.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;iFrogLab_iBeacon.ViewController&gt;"
+                  moduleName = "iFrogLab_iBeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/powenko/Desktop/powenko/github/iFrogLab_github/iFrogLab_F-60_UART/sample21-iOS-Swift-iBeacon-ChangeBackground-AndLog/iFrogLab_iBeacon/iFrogLab_iBeacon/ViewController.swift"
+                  timestampString = "497401608.045401"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

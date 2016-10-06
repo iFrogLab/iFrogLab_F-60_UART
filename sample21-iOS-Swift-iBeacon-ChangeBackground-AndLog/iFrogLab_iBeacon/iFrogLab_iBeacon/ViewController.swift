@@ -15,7 +15,7 @@ import CoreLocation
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
-    let region = CLBeaconRegion(proximityUUID: NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")!, identifier: "Estimotes")
+    let region = CLBeaconRegion(proximityUUID: NSUUID(uuidString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")! as UUID, identifier: "Estimotes")
     // Note: make sure you replace the keys here with your own beacons' Minor Values
     let colors = [
         54482: UIColor(red: 84/255, green: 77/255, blue: 160/255, alpha: 1),
@@ -27,10 +27,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         locationManager.delegate = self
-        if (CLLocationManager.authorizationStatus() != CLAuthorizationStatus.AuthorizedWhenInUse) {
+        if (CLLocationManager.authorizationStatus() != CLAuthorizationStatus.authorizedWhenInUse) {
             locationManager.requestWhenInUseAuthorization()
         }
-        locationManager.startRangingBeaconsInRegion(region)
+        locationManager.startRangingBeacons(in: region)
     }
     
     override func didReceiveMemoryWarning() {
@@ -40,10 +40,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager, didRangeBeacons beacons: [CLBeacon], inRegion region: CLBeaconRegion) {
         print(beacons)
-        let knownBeacons = beacons.filter{ $0.proximity != CLProximity.Unknown }
+        let knownBeacons = beacons.filter{ $0.proximity != CLProximity.unknown }
         if (knownBeacons.count > 0) {
             let closestBeacon = knownBeacons[0] as CLBeacon
-            self.view.backgroundColor = self.colors[closestBeacon.minor.integerValue]
+            self.view.backgroundColor = self.colors[closestBeacon.minor.intValue]
         }
     }
     

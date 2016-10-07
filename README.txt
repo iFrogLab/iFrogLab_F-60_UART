@@ -13,6 +13,10 @@ https://www.youtube.com/playlist?list=PLkvu6TsdkQFoXUIVTa7cfhMmow_DUehXU
 source code could be download from 
 https://github.com/powenko/iFrogLab_F60_UART
 
+the iFrogLab F-60 BLE hardware available at amazon.com
+https://www.amazon.com/iFrogLab-Bluetooth-Transceiver-Connect-Raspberry/dp/B01CYX30KM/ref=sr_1_1?ie=UTF8&qid=1475881031&sr=8-1&keywords=ifroglab
+
+
 
 ===========================================================================
 DESCRIPTION:
